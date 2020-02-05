@@ -1,0 +1,36 @@
+@import url('https://s3.amazonaws.com/icomoon.io/157998/CAELAIcons/style.css?hzwm4q');
+//@import "./cea-tachyons";
+
+@font-face {
+	font-family: "Greycliff";
+	src: url("https://cea.vteximg.com.br/arquivos/greycliff-cf-bold-webfont.eot.css");
+	src: url("https://cea.vteximg.com.br/arquivos/greycliff-cf-bold-webfont.eot.css?#iefix") format("embedded-opentype"),
+	url("https://cea.vteximg.com.br/arquivos/greycliff-cf-bold-webfont.woff.css") format("woff"),
+	url("https://cea.vteximg.com.br/arquivos/greycliff-cf-bold-webfont.ttf.css") format("truetype"),
+	url("https://cea.vteximg.com.br/arquivos/greycliff-cf-bold-webfont.svg.css#GreyClifCF") format("svg");
+	font-weight: bold;
+	font-style: normal;
+}
+
+html, body{
+	font-size: 16px;
+}
+
+.appearance{
+	border: 0;
+	-webkit-appearance: none;
+	outline: none!important	
+}
+
+.cea-orderFeed--search{
+	&-select{
+		border-bottom-left-radius: 1rem;
+		border-top-left-radius: 1rem;
+
+		&:after{
+			font-family: "ela-icons";
+			content: "\e91b";
+			display: block;
+		}
+	}
+}

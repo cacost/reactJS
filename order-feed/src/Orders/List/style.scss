@@ -1,0 +1,28 @@
+.cea-orderFeed--orders{
+	&-table{
+		tr{
+			&:hover{
+				cursor: pointer;
+			}
+
+			td{
+				font-size: 12px
+			}
+		}
+	}
+		
+	&-pagination{
+		li{
+			span{
+				display: block;
+				font-size: 12px;
+			}	
+			button{
+				i{
+					margin-top: 2px;
+				}
+			}
+		}
+		
+	}
+}

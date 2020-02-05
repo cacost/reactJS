@@ -1,0 +1,41 @@
+.cea-orderFeed--orders-header_filter{
+	&-list{
+		background: #fff;
+		position: absolute;
+		top: 0;
+		margin-top: 0;
+		z-index: 999;
+		right: 0;
+		height: 100vw;
+		padding: 3rem 1rem;
+    	width: 20%;
+    	transform: translateX(100%);
+		transition: .5s ease-in-out;
+
+		&.is-menu-open{
+			transform: translateX(0);
+
+			@media (max-width: 490px) {
+            	transform: translateX(calc(100vw - 81px));
+        	}	
+		}
+
+		li{
+			list-style: none;
+			margin-bottom: 1rem;
+
+			button{
+				border: 0;
+				border-bottom: 1px solid #bbc7dc;
+				-webkit-appearance: none;
+    			outline: none !important;
+			}
+		}
+
+		&-close{
+			position: absolute;
+			top: .5rem;
+			left: .5rem;
+		}
+	}
+}

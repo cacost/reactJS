@@ -1,0 +1,14 @@
+[
+	{
+	 	'number': '001',
+	 	'payment': 'boleto'
+	},
+	{
+			'number': '002',
+	 	'payment': 'cartão de crédito'
+	},
+	{
+			'number': '003',
+	 	'payment': 'cartao C&A'
+	}
+]
